@@ -1,0 +1,44 @@
+body {
+  font-family: "PT Serif", serif;
+  font-family: "Signika", sans-serif;
+  height: 2000px;
+}
+
+.intro {
+  background: url("/images/rajaampat.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 10rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #434242;
+}
+
+.card-title {
+  text-align: center;
+}
